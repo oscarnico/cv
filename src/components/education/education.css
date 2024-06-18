@@ -1,0 +1,54 @@
+.education {
+    display: flex;
+    margin: 0rem 3rem 1rem 1rem;
+}
+.book {
+    margin-right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.education h3 {
+    border-bottom: 2px solid;
+}
+.educ-human {
+    color: white;
+    margin-right: 1rem;
+    min-width: 50%;
+    text-align: center;
+}
+.educ-a {
+    color: #FFD700;
+}
+.natur-house{
+    color: white;
+}
+.education-div ul {
+    text-align: center;
+    list-style-type: none;
+}
+.educ-iron {
+    color: #FFD700;
+    margin-left: 1rem;
+    min-width: 50%;
+    text-align: center;
+}
+.iron-a {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .education {
+        flex-direction: column;
+        margin: 0rem 1rem 1rem 1rem;
+    }
+  
+    .educ-human {
+        order: 1;
+        min-width: none;
+    }
+  
+    .educ-iron {
+        order: 2;
+        min-width: none;
+    }
+  }

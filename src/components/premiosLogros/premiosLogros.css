@@ -1,0 +1,32 @@
+.master {
+    margin-right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.metal {
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+.pyl {
+    background: linear-gradient(to left, white 45%,  #FFD700 55%);
+    border-radius: 25px;
+    margin: 2rem;
+    padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+}
+.pyl h3 {
+    border-bottom: 2px solid;
+}
+.master {
+    order: 2; /* Por defecto, la imagen está después del texto */
+  }
+  
+  @media (max-width: 768px) { /* Ajusta el ancho según necesites para la versión móvil */
+    .pyl h3 {
+      flex-direction: row-reverse; /* Invierte el orden de los hijos del h3 */
+    }
+  
+    .master {
+      order: 1; /* Asegura que la imagen aparezca primero en dispositivos móviles */
+    }
+  }

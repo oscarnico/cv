@@ -1,0 +1,48 @@
+.xperience-text {
+    display: flex;
+    margin: 0rem 3rem 1rem 1rem;
+}
+.human {
+    margin-right: 1rem;
+    min-width: 50%;
+    text-align: center;
+}
+.iron {
+    min-width: 50%;
+    text-align: center;
+}
+.a-human-h4 {
+    color: white;
+}
+.human-a {
+    color: #FFD700;
+}
+.human-h4, .human-h6, .human-p {
+    color: white;
+}
+.iron-h4, .iron-h6, .iron-p {
+    color: #FFD700; 
+}
+.our-app {
+    color: #FFD700; 
+}
+.angel {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .xperience-text {
+        flex-direction: column;
+        margin: 0rem 1rem 1rem 1rem;
+    }
+  
+    .human {
+        order: 1;
+        min-width: none;
+    }
+  
+    .iron {
+        order: 2;
+        min-width: none;
+    }
+  }

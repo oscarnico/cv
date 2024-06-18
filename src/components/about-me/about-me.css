@@ -1,0 +1,80 @@
+.about-me {
+    background-color: black;
+    flex-wrap: wrap; 
+}
+.about-header {
+    display: flex;
+    gap: 1rem;
+}
+.h3-rrss {
+    padding: 2rem 1.5rem 0rem 1.5rem;
+}
+.rrss-a:hover {
+    color: white;
+}
+ .github {
+    background-color: white;
+    margin-top: 2rem;
+    width: 3rem;
+    height: 3rem;
+ }
+ .linkedin {
+    margin-top: 2rem;
+    width: 3rem;
+    height: 3rem;
+ }
+ .github:hover {
+    cursor: pointer;
+    background-color: #FFD700;
+ }
+ .linkedin:hover {
+    cursor: pointer;
+    background-color: #FFD700;
+ }
+
+.about-me-h2 {
+    color: #FFD700;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+.about-me-h2:hover {
+    color: white;
+}
+.about-me h2 .arrow {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+
+.p-about {
+    color:white;
+    font-size: 1.1rem;
+    padding: 1rem;
+    min-width: 97%;
+}
+
+.about-me a {
+    color: #FFD700;
+}
+
+@media (max-width: 600px) {
+    .about-header {
+        display: flex;
+    }
+    .h3-rrss {
+        padding: 0rem;
+    }
+    .about-me-h2 {
+        padding: 0rem;
+    }
+    .rrss-a {
+        margin-right: 1rem;
+    }
+    .p-about {
+        text-align: center;
+        min-width: 97%;
+        padding: 0.5rem;
+    }
+  }
