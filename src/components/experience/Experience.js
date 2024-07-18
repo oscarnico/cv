@@ -15,14 +15,20 @@ const Experience = () => {
             </h4>
             <h6 className="human-h6">Febrero 2024 - Actualidad</h6>
             <p className="human-p">
-              Desarrollador de e-commerce "
+              Desarrollo, despliego y mantengo varias tiendas de e-commerce
+              en&nbsp;
               <a className="human-a" href="https://www.shopify.com/">
                 Shopify
               </a>
-              " creando soluciones personalizadas para clientes, implementando
-              customizaciones más funcionales y avanzadas en temas de Shopify,
-              utilizando Liquid, CSS, HTML y JavaScript. Gestionando
-              repositorios en GitHub.
+              , manejando el front-end. Trabajo codo a codo con el equipo de
+              diseño UX/UI para asegurar que la experiencia del cliente sea la
+              mejor. Me encargo de implementar diseños responsive y adaptados al
+              cliente usando Liquid, HTML, CSS y JavaScript. También optimizo
+              los sitios web para SEO, gestiono el control de versiones con Git,
+              soy responsable de repositorios y coordino los flujos de trabajo
+              en GitHub. Además, participo en la planificación de proyectos,
+              incluyendo ciclos de sprint, estimaciones y gestión del backlog en
+              Monday.
             </p>
           </div>
           <div className="iron">
