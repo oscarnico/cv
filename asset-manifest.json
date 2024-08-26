@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/iron-man-cv/static/css/main.9be5197b.css",
+    "main.js": "/iron-man-cv/static/js/main.6cf42ec5.js",
+    "static/js/453.37df9cc7.chunk.js": "/iron-man-cv/static/js/453.37df9cc7.chunk.js",
+    "static/media/fa-solid-900.ttf": "/iron-man-cv/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/Captura de pantalla 2024-05-27 223548.png": "/iron-man-cv/static/media/Captura de pantalla 2024-05-27 223548.edb1e707ceabb8a0a8b5.png",
+    "static/media/Mail_icon-icons.com_76887.png": "/iron-man-cv/static/media/Mail_icon-icons.com_76887.503f40e8faef547530ef.png",
+    "static/media/fa-brands-400.ttf": "/iron-man-cv/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/iron-man-cv/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/book_books_school_read_icon_210070.png": "/iron-man-cv/static/media/book_books_school_read_icon_210070.abf1e2aabb20600ebe38.png",
+    "static/media/fa-brands-400.woff2": "/iron-man-cv/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/liquid1.png": "/iron-man-cv/static/media/liquid1.5365721f72904645182a.png",
+    "static/media/fa-regular-400.ttf": "/iron-man-cv/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/iron-man-cv.jpg": "/iron-man-cv/static/media/iron-man-cv.1f9d08bb4b5acb796f02.jpg",
+    "static/media/docker_original_wordmark_logo_icon_146557.png": "/iron-man-cv/static/media/docker_original_wordmark_logo_icon_146557.ac813095b1b71af275ce.png",
+    "static/media/construction.png": "/iron-man-cv/static/media/construction.8fceac5cb2f3dd12b143.png",
+    "static/media/mongodb_original_wordmark_logo_icon_146425.png": "/iron-man-cv/static/media/mongodb_original_wordmark_logo_icon_146425.bf8042403d8797a7ff1b.png",
+    "static/media/1495493940-linkedinsocialmedialogo_84449.png": "/iron-man-cv/static/media/1495493940-linkedinsocialmedialogo_84449.dc2e11db0edb9c8d76be.png",
+    "static/media/fa-regular-400.woff2": "/iron-man-cv/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/csharp_original_logo_icon_146578.png": "/iron-man-cv/static/media/csharp_original_logo_icon_146578.509c1a4773a41d73a664.png",
+    "static/media/github_original_wordmark_logo_icon_146506.png": "/iron-man-cv/static/media/github_original_wordmark_logo_icon_146506.06f6b12f7db7f925f850.png",
+    "static/media/certificated_toga_diploma_university_school_graduated_icon_209310.png": "/iron-man-cv/static/media/certificated_toga_diploma_university_school_graduated_icon_209310.90dae6726815cb87297e.png",
+    "static/media/ARC.png": "/iron-man-cv/static/media/ARC.2919920f8464ac3bd60f.png",
+    "static/media/react_original_wordmark_logo_icon_146375.png": "/iron-man-cv/static/media/react_original_wordmark_logo_icon_146375.598c274386446bb54ac6.png",
+    "static/media/medal_champion_award_winner_olympic_icon_207803.png": "/iron-man-cv/static/media/medal_champion_award_winner_olympic_icon_207803.19a8b37672615a6645e4.png",
+    "static/media/css_original_wordmark_logo_icon_146576.png": "/iron-man-cv/static/media/css_original_wordmark_logo_icon_146576.6eb18ad7d8487a413955.png",
+    "static/media/git_original_wordmark_logo_icon_146510.png": "/iron-man-cv/static/media/git_original_wordmark_logo_icon_146510.f43e2ebc6cb742103593.png",
+    "static/media/html_original_wordmark_logo_icon_146478.png": "/iron-man-cv/static/media/html_original_wordmark_logo_icon_146478.5d00fa0013ec44d1696a.png",
+    "static/media/nodejs_original_wordmark_logo_icon_146412.png": "/iron-man-cv/static/media/nodejs_original_wordmark_logo_icon_146412.9493a7030123ccb59d91.png",
+    "static/media/fa-v4compatibility.ttf": "/iron-man-cv/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/iron-man-cv/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/iron-man-cv/index.html",
+    "main.9be5197b.css.map": "/iron-man-cv/static/css/main.9be5197b.css.map",
+    "main.6cf42ec5.js.map": "/iron-man-cv/static/js/main.6cf42ec5.js.map",
+    "453.37df9cc7.chunk.js.map": "/iron-man-cv/static/js/453.37df9cc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9be5197b.css",
+    "static/js/main.6cf42ec5.js"
+  ]
+}
