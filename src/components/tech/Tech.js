@@ -11,6 +11,7 @@ import c from "../../images/csharp_original_logo_icon_146578.png";
 import js from "../../images/javascript_original_logo_icon_146455.png";
 import react from "../../images/react_original_wordmark_logo_icon_146375.png";
 import npm from "../../images/npm_original_wordmark_logo_icon_146402.png";
+import shopi from "../../images/Shopify_icon.png";
 
 const Tech = () => {
   const [offset, setOffset] = useState(0);
@@ -21,6 +22,7 @@ const Tech = () => {
     { type: "image", src: docker },
     { type: "image", src: html },
     { type: "image", src: node },
+    { type: "image", src: shopi },
     { type: "image", src: c },
     { type: "image", src: git },
     { type: "image", src: js },

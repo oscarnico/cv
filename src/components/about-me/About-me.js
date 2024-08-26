@@ -30,7 +30,7 @@ const AboutMe = () => {
       {isVisible && (
         <p className="p-about">
           ¡Hola! Soy Óscar, un Desarrollador Full Stack especializado en el
-          Stack MERN. Durante la semana, trabajo en la prestigiosa agencia
+          Stack MERN. Durante la semana, trabajo en la agencia
           <a href="https://www.webmefy.com">Webmefy</a>, desarrollando
           bussines-software para importantes clientes. Pero en mi tiempo libre,
           me convierto en un super héroe del código, investigando y creando mis

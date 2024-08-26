@@ -23,7 +23,7 @@ export const Footer = () => {
               alt="icon-construction"
               className="foot-icon"
             />
-            Construido con React ®
+            Construido con React ®, sin terminar.
           </p>
         </div>
         <div className="footer-links">

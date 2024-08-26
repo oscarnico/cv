@@ -41,7 +41,7 @@ const Experience = () => {
                 “smartfoodinsight”
               </a>
             </h4>
-            <h6 className="iron-h6">Octubre 2023 - Junio 2024</h6>
+            <h6 className="iron-h6">Octubre 2023 - Agosto 2024</h6>
             <p className="iron-p">
               Desarrollé una API para una app móvil utilizando NodeJS y MongoDB,
               implementando buenas prácticas y priorizando una arquitectura
