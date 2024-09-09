@@ -1,6 +1,7 @@
 import React from "react";
 import CollapsibleSection from "../collapsibleSection/CollapsibleSection";
 import "./experience.css";
+import { ReactComponent as GooglePlayIcon } from "../../Play-store.svg";
 
 const Experience = () => {
   return (
@@ -60,11 +61,20 @@ const Experience = () => {
               app tan inteligente y avanzada que incluso J.A.R.V.I.S. estaría
               celoso.
             </p>
-            <p className="iron-p">
+            <a
+              className="download-button"
+              href="https://play.google.com/store/apps/details?id=es.smartfoodinsight.smartfoodinsight&hl=es"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GooglePlayIcon className="google-play-icon" />
+              Disponible en Google Play
+            </a>
+            {/* <p className="iron-p">
               Descárgala en la App Store y únete al futuro de la alimentación
               inteligente, cortesía de dos desarrolladores que no necesitan un
               traje de hierro para hacer magia.
-            </p>
+            </p> */}
           </div>
         </div>
       </CollapsibleSection>

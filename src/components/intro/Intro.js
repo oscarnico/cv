@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <>
       <div className="intro-container">
-        <h3 className="shine">
+        <h3 className="">
           ¡BIENVENIDO A
           <br />
           LA TORRE STARK

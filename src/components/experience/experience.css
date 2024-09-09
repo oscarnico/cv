@@ -46,3 +46,22 @@
         min-width: none;
     }
   }
+
+  .download-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 16rem;
+  }
+  
+  .download-button:hover {
+    background-color: #333;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+  }
