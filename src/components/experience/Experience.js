@@ -37,7 +37,7 @@ const Experience = () => {
               Proyecto Personal -{" "}
               <a
                 className="our-app"
-                href="https://www.linkedin.com/in/angelruben/"
+                href="https://play.google.com/store/apps/details?id=es.smartfoodinsight.smartfoodinsight&hl=es"
               >
                 “smartfoodinsight”
               </a>
