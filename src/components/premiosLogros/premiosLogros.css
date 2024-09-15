@@ -18,15 +18,15 @@
     border-bottom: 2px solid;
 }
 .master {
-    order: 2; /* Por defecto, la imagen está después del texto */
+    order: 2;
   }
   
-  @media (max-width: 768px) { /* Ajusta el ancho según necesites para la versión móvil */
+  @media (max-width: 768px) {
     .pyl h3 {
-      flex-direction: row-reverse; /* Invierte el orden de los hijos del h3 */
+      flex-direction: row-reverse;
     }
   
     .master {
-      order: 1; /* Asegura que la imagen aparezca primero en dispositivos móviles */
+      order: 1;
     }
   }

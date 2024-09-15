@@ -29,30 +29,31 @@ const AboutMe = () => {
       </div>
       {isVisible && (
         <p className="p-about">
-          ¡Hola! Soy Óscar, un Desarrollador Full Stack especializado en el
-          Stack MERN. Durante la semana, trabajo en la agencia
-          <a href="https://www.webmefy.com">Webmefy</a>, desarrollando
-          bussines-software para importantes clientes. Pero en mi tiempo libre,
-          me convierto en un super héroe del código, investigando y creando mis
-          propios proyectos como un verdadero Tony Stark del desarrollo.
-          Actualmente, estoy inmerso en una formación en C# con .NET, porque al
-          igual que Stark con sus múltiples trajes, me apasiona tener diversas
-          herramientas en mi arsenal, especialmente en el backend. Mi carrera
-          esta siendo una emocionante aventura llena de desafíos. Al igual que
-          Stark en sus laboratorios, estoy demostrando consistencia y
-          productividad en la entrega de proyectos. Tengo una capacidad casi
-          arc-reactor-ial para aprender, adaptarme a nuevas tecnologías y
-          enfrentar cualquier desafío. Fuera de la oficina, disfruto escalando
-          las montañas más altas. 😅 Mi compromiso con la formación continua
-          refleja mi pasión por el desarrollo y mi deseo de ser la mejor versión
-          de mí mismo. Entre mis logros, me enorgullece decir que gané un
-          hackathon organizado por{" "}
+          Hola! Soy Óscar, un Desarrollador Full Stack especializado en el Stack
+          MERN. Actualmente, estoy completamente enfocado en mejorar mi proyecto
+          personal,{" "}
+          <a
+            className="our-app"
+            href="https://play.google.com/store/apps/details?id=es.smartfoodinsight.smartfoodinsight&hl=es"
+          >
+            “Smart Food Insight”
+          </a>
+          , una app disponible en la Play Store que ayuda a los usuarios a
+          gestionar sus compras, controlar su alimentación y reducir el
+          desperdicio de alimentos.<br></br>
+          <br></br>Apasionado por la programación, siempre estoy en busca de
+          aprender nuevas herramientas y lenguajes. En estos momentos, estoy
+          sumergido en el estudio de C# con .NET, lo que me permite seguir
+          fortaleciendo mis habilidades backend y mantenerme actualizado como
+          programador versátil.<br></br>
+          <br></br> Mi compromiso con la mejora continua me ha llevado a lograr
+          importantes hitos, como ganar un hackathon organizado por{" "}
           <a href="https://www.caixabank.es">LA Caixa</a> y{" "}
-          <a href="https://nuclio.school">Nuclio Digital School</a>. ¡Sí, me
-          siento un poco como si hubiera salvado el mundo de nuevo!🏆 Así que,
-          si buscas a alguien que combine la persistencia de un programador con
-          la genialidad y el sentido del humor de Tony Stark, ¡estás en el lugar
-          correcto! ¡Let's code like it's the Stark Expo!🚀
+          <a href="https://nuclio.school">Nuclio Digital School</a>, donde
+          destaqué por ofrecer soluciones innovadoras y efectivas.<br></br>
+          <br></br>Si buscas a un programador que combina persistencia,
+          creatividad y pasión por el código, ¡estás en el lugar indicado!
+          ¡Let's code and make things happen! 🚀
         </p>
       )}
     </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import "./cv.css";
 import Header from "../header/Header";
 import AboutMe from "../about-me/About-me";
 import Tech from "../tech/Tech";

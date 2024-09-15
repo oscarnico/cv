@@ -24,7 +24,7 @@ const Intro = () => {
           **Aviso a las empresas serias**: <br />
           Sí, es friki, y sí, está hecho a propósito. Mi pasión por la
           tecnología es tan real como mi aprecio por el universo Marvel. Así
-          que, adelante, echen un vistazo y descubran el ingeniero detrás de la
+          que, adelante, eche un vistazo y descubra el programador detrás de la
           pantalla. ¡Nos vemos en el campo de batalla digital!
         </h5>
         <div className="div-button">
