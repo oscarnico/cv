@@ -42,21 +42,13 @@ const Experience = () => {
                 “smartfoodinsight”
               </a>
             </h4>
-            <h6 className="iron-h6">Octubre 2023 - Actualidad</h6>
+            <h6 className="iron-h6">Septiembre 2024 - Actualidad</h6>
             <p className="iron-p">
-              Desarrollo de una API para una app móvil utilizando NodeJS y
+              Desarrollo de una API para una app móvil utilizando Node.js y
               MongoDB, implementando buenas prácticas y priorizando una
               arquitectura limpia y estructurada. Documentada con Swagger,
-              porque hasta Tony Stark documenta su trabajo, ¿verdad? Con la
-              colaboración y dirección de mi compañero de desarrollo y mentor{" "}
-              <a
-                className="angel"
-                href="https://www.linkedin.com/in/angelruben/"
-              >
-                Ángel Valdeolmos
-              </a>
-              , estamos creando una app que Tony Stark aprobaría. Mientras yo me
-              ocupo del backend con NodeJS, mi colega diseña el front con
+              porque hasta Tony Stark documenta su trabajo, ¿verdad? Yo me
+              encargo del backend con Node.js y mi compañero del front con
               Flutter. Juntos, fusionamos nuestros poderes tecnológicos para
               crear una app tan inteligente y avanzada que incluso J.A.R.V.I.S.
               estaría celoso.

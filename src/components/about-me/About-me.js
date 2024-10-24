@@ -30,8 +30,7 @@ const AboutMe = () => {
       {isVisible && (
         <p className="p-about">
           Hola! Soy Óscar, un Desarrollador Full Stack especializado en el Stack
-          MERN. Actualmente, estoy completamente enfocado en mejorar mi proyecto
-          personal,{" "}
+          MERN. Actualmente estoy trabajando en,{" "}
           <a
             className="our-app"
             href="https://play.google.com/store/apps/details?id=es.smartfoodinsight.smartfoodinsight&hl=es"
