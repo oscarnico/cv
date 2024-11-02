@@ -34,12 +34,11 @@ const Experience = () => {
           </div>
           <div className="iron">
             <h4 className="iron-h4">
-              Proyecto Personal -{" "}
               <a
                 className="our-app"
                 href="https://play.google.com/store/apps/details?id=es.smartfoodinsight.smartfoodinsight&hl=es"
               >
-                “smartfoodinsight”
+                Smart Food Insight
               </a>
             </h4>
             <h6 className="iron-h6">Septiembre 2024 - Actualidad</h6>
