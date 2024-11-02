@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.4356dde8.css",
-    "main.js": "/cv/static/js/main.2c4e01c7.js",
+    "main.js": "/cv/static/js/main.c7005ae8.js",
     "static/js/453.37df9cc7.chunk.js": "/cv/static/js/453.37df9cc7.chunk.js",
     "static/media/fa-solid-900.ttf": "/cv/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/Captura de pantalla 2024-05-27 223548.png": "/cv/static/media/Captura de pantalla 2024-05-27 223548.edb1e707ceabb8a0a8b5.png",
@@ -34,11 +34,11 @@
     "static/media/Play-store.svg": "/cv/static/media/Play-store.6fd2514a262cb1049b08f649ad08e1f5.svg",
     "index.html": "/cv/index.html",
     "main.4356dde8.css.map": "/cv/static/css/main.4356dde8.css.map",
-    "main.2c4e01c7.js.map": "/cv/static/js/main.2c4e01c7.js.map",
+    "main.c7005ae8.js.map": "/cv/static/js/main.c7005ae8.js.map",
     "453.37df9cc7.chunk.js.map": "/cv/static/js/453.37df9cc7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4356dde8.css",
-    "static/js/main.2c4e01c7.js"
+    "static/js/main.c7005ae8.js"
   ]
 }
