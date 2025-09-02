@@ -1,4 +1,4 @@
-.master {
+/* .master {
     margin-right: 1rem;
     width: 1.5rem;
     height: 1.5rem;
@@ -29,4 +29,85 @@
     .master {
       order: 1;
     }
+  } */
+
+/* Contenedor principal de la sección */
+.pyl {
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem 3rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Contenedores internos para logros individuales */
+.pyl > div {
+  min-width: 45%;
+  text-align: center;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(0,0,0,0.3); /* sutil contraste */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover sobre cada logro */
+.pyl > div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.5);
+}
+
+/* Títulos de cada logro */
+.pyl h3 {
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--accent);
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  transition: color 0.3s ease;
+}
+
+/* Hover en títulos */
+.pyl h3:hover {
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+/* Iconos de los logros */
+.pyl img {
+  width: 1.8rem;
+  height: auto;
+}
+
+/* Texto descriptivo */
+.pyl p {
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+/* Responsive: móviles */
+@media (max-width: 768px) {
+  .pyl > div {
+    min-width: 90%;
   }
+
+  .pyl h3 {
+    font-size: 1.3rem;
+    flex-direction: column;
+  }
+
+  .pyl p {
+    font-size: 0.95rem;
+  }
+
+  .pyl img {
+    width: 1.5rem;
+  }
+}
+

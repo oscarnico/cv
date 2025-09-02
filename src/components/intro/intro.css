@@ -1,4 +1,4 @@
-
+/* 
 .intro-container {
   background-color: black;
   min-height: 100vh;
@@ -43,10 +43,10 @@
     transition: .5s;
     letter-spacing: 4px;
     background-color: transparent;
-    /* border: 6px solid #ff0000; */
-  }
+    border: 6px solid #ff0000; comentar esta linea
+  } */
   
-  .animated-button:hover {
+  /* .animated-button:hover {
     background: #ff0000;
     color: white;
     border-radius: 5px;
@@ -141,4 +141,71 @@
     .animated-button {
       margin: 50px; 
     }
-  }
+  } */
+
+
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+.intro-content {
+  max-width: 800px;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.role {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.tagline {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  color: var(--text-color);
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+  background-color: var(--accent);
+  color: var(--bg-color);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+.btn.secondary:hover {
+  background-color: var(--accent);
+  color: var(--bg-color);
+}

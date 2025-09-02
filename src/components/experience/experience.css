@@ -1,4 +1,4 @@
-.xperience-text {
+/* .xperience-text {
     display: flex;
     margin: 0rem 3rem 1rem 1rem;
 }
@@ -64,4 +64,19 @@
     background-color: #333;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
     transform: translateY(-2px);
-  }
+  } */
+
+  .peanut, .peanut-h4, .peanut-h6, .peanut-p {
+  color: var(--text-color); /* blanco/gris claro */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.peanut-h4 a {
+  color: var(--accent); /* verde turquesa */
+  text-decoration: none;
+}
+
+.peanut-h4 a:hover {
+  color: var(--secondary); /* azul tech */
+}

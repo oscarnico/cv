@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import arc from "../../images/ARC.png";
+import arc from "../../images/Shopify_icon.png";
 import construction from "../../images/construction.png";
 import mail from "../../images/Mail_icon-icons.com_76887.png";
 
@@ -12,7 +12,9 @@ export const Footer = () => {
           <img src={arc} alt="Arc Reactor" className="arc-reactor-img" />
         </div>
         <div className="arc-reactor-text">
-          <p>"Mantente energizado con café y código."</p>
+          <p>
+            "Construyendo experiencias de e-commerce eficientes y escalables."
+          </p>
         </div>
       </div>
       <div className="last-div">

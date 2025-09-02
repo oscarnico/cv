@@ -1,0 +1,102 @@
+.projects-container {
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+.projects-container h1 {
+  color: var(--accent);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.projects-intro {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: var(--bg-color);
+  border-radius: 12px;
+  padding: 1.2rem;
+  min-width: 300px;
+  max-width: 350px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.project-logo {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.project-card h2 {
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-buttons .btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--text-color);
+  background-color: var(--accent);
+  transition: background-color 0.3s ease;
+}
+
+.project-buttons .btn:hover {
+  background-color: var(--secondary);
+}
+
+.project-buttons .btn.secondary {
+  background-color: transparent;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+}
+
+.project-buttons .btn.secondary:hover {
+  background-color: var(--accent);
+  color: var(--bg-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-card {
+    min-width: 90%;
+  }
+  .project-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+}

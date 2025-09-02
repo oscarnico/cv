@@ -1,4 +1,4 @@
-.collapsible-section h2 {
+/* .collapsible-section h2 {
     background: linear-gradient(to right, white 45%,  #FFD700 55%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -18,4 +18,37 @@
     .collapsible-section h2 {
         font-size: 2.1rem;
     }
+} */
+
+.collapsible-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--accent);
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.collapsible-section h2:hover {
+  color: var(--secondary);
+  transform: scale(1.05);
+}
+
+.arrow {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.section-content {
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .collapsible-section h2 {
+    font-size: 1.6rem;
+    padding: 0 0.5rem;
+  }
 }
