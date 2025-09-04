@@ -1,38 +1,3 @@
-// import React from "react";
-// import "./project.css";
-
-// const Projects = () => {
-//   return (
-//     <section className="projects-container">
-//       <h1>Mis Proyectos</h1>
-//       <p>Aquí encontrarás una selección de mis trabajos y colaboraciones.</p>
-
-//       <div className="projects-grid">
-//         <div className="project-card">
-//           <h2>Smart Food Insight</h2>
-//           <p>
-//             App de gestión de alimentos con escaneo de productos y comparación
-//             de precios.
-//           </p>
-//           <a
-//             href="https://smartfoodinsight.github.io/smart-food-insight-web/"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//           >
-//             Ver proyecto
-//           </a>
-//         </div>
-
-//         <div className="project-card">
-//           <h2>Tienda Shopify</h2>
-//           <p>Ejemplo de desarrollo frontend y personalización con Liquid.</p>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Projects;
 import React from "react";
 import { Link } from "react-router-dom";
 import "./project.css";
@@ -41,10 +6,17 @@ import smartFoodLogo from "../../images/smart-food.png";
 const Projects = () => {
   return (
     <section className="projects-container">
-      <h1>Mis Proyectos</h1>
+      <h1>Proyectos Destacados</h1>
       <p className="projects-intro">
         Proyectos destacados de desarrollo y colaboración en entornos reales.
       </p>
+
+      {/* Botón CV global */}
+      <div className="projects-cv-button">
+        <Link to="/Cv" className="btn secondary">
+          Ver CV
+        </Link>
+      </div>
 
       <div className="projects-grid">
         <div className="project-card">
@@ -64,19 +36,85 @@ const Projects = () => {
               href="https://play.google.com/store/apps/details?id=es.smartfoodinsight.smartfoodinsight&hl=es"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn"
+              className="btn small"
             >
               Ver en Play Store
             </a>
-            <Link to="/Cv" className="btn secondary">
-              Ver CV
-            </Link>
           </div>
         </div>
 
         <div className="project-card">
-          <h2>Tienda Shopify</h2>
-          <p>Ejemplo de desarrollo frontend y personalización con Liquid.</p>
+          <h2>Colaboraciones en tiendas Shopify</h2>
+          <p>
+            Como desarrollador en agencias especializadas en Shopify, he
+            colaborado en múltiples tiendas online, aportando optimización y
+            personalización de experiencias de usuario. Entre los proyectos en
+            los que he participado destacan{" "}
+            <a
+              href="https://ivbwellness.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              IVB
+            </a>
+            ,{" "}
+            <a
+              href="https://komvida.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Komvida
+            </a>
+            ,{" "}
+            <a
+              href="https://www.valquer.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Valquer
+            </a>
+            ,{" "}
+            <a
+              href="https://guinnesswebstore.co.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Guinness
+            </a>
+            ,{" "}
+            <a
+              href="https://grimey.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Grimey
+            </a>
+            ,{" "}
+            <a
+              href="https://naguisa.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Naguisa
+            </a>
+            ,{" "}
+            <a
+              href="https://es.jimmylion.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Jimmy Lion
+            </a>{" "}
+            y{" "}
+            <a
+              href="https://es.3ina.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              3ina
+            </a>
+            , contribuyendo al crecimiento y eficiencia de cada tienda.
+          </p>
         </div>
       </div>
     </section>

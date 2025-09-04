@@ -81,7 +81,7 @@ const Experience = () => {
       <CollapsibleSection title="Experiencia">
         <div className="xperience-text">
           <div className="peanut">
-            <h4 className="peanut-h4">
+            <h3 className="peanut-h4">
               <a
                 className="our-app"
                 href="https://peanutbutter.es//"
@@ -90,7 +90,7 @@ const Experience = () => {
               >
                 Peanut Butter
               </a>
-            </h4>
+            </h3>
             <h6 className="peanut-h6">Enero 2025 - Actualidad</h6>
             <p className="peanut-p">
               Developer & Coordinador en e-Commerce y Soporte en una agencia
@@ -102,11 +102,11 @@ const Experience = () => {
           </div>
 
           <div className="human">
-            <h4>
+            <h3>
               <a className="a-human-h4" href="https://www.webmefy.com">
                 Webmefy
               </a>
-            </h4>
+            </h3>
             <h6 className="human-h6">Febrero 2024 - Agosto 2024</h6>
             <p className="human-p">
               Desarrollé, desplegué y mantuve varias tiendas de e-commerce
@@ -123,14 +123,14 @@ const Experience = () => {
           </div>
 
           <div className="iron">
-            <h4 className="iron-h4">
+            <h3 className="iron-h4">
               <a
                 className="our-app"
                 href="https://play.google.com/store/apps/details?id=es.smartfoodinsight.smartfoodinsight&hl=es"
               >
                 Smart Food Insight
               </a>
-            </h4>
+            </h3>
             <h6 className="iron-h6">Septiembre 2024 - Enero 2025</h6>
             <p className="iron-p">
               Desarrollo de API para una app móvil con Node.js y MongoDB,

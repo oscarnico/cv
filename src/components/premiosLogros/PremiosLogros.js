@@ -46,9 +46,12 @@
 // };
 
 // export default PremiosLogros;
+
 import React from "react";
 import CollapsibleSection from "../collapsibleSection/CollapsibleSection";
 import "./premiosLogros.css";
+
+// Iconos / insignias
 import gold from "../../images/medal_champion_award_winner_olympic_icon_207803.png";
 import shopifyBadge from "../../images/Shopify_icon.png";
 import clickupBadge from "../../images/629e24f2974c5f2c1ceaa620.png";
@@ -61,32 +64,8 @@ const PremiosLogros = () => {
         <div className="pyl">
           <div>
             <h3>
-              <img src={gold} alt="medal" />
-              Mejor nota de la promoción del Máster (2023)
-            </h3>
-            <p>
-              Fui elegido portavoz de los estudiantes y obtuve la mejor
-              calificación del máster. Este logro refleja mi compromiso y
-              dedicación durante el programa.
-            </p>
-          </div>
-
-          <div>
-            <h3>
-              <img src={gold} alt="medal" />
-              Ganador del Hackathon de La Caixa (noviembre 2023)
-            </h3>
-            <p>
-              Participé en un hackathon competitivo organizado por La Caixa,
-              donde nuestro equipo presentó una solución innovadora y logramos
-              el primer puesto.
-            </p>
-          </div>
-
-          <div>
-            <h3>
               <img src={shopifyBadge} alt="Shopify Badge" />
-              Shopify Development Fundamentals (2025)
+              Shopify Development Fundamentals (ago 2025)
             </h3>
             <p>
               Insignia oficial obtenida tras completar con éxito el examen
@@ -108,22 +87,22 @@ const PremiosLogros = () => {
           <div>
             <h3>
               <img src={clickupBadge} alt="ClickUp Badge" />
-              ClickUp Expert Certificate (abr 2025)
+              ClickUp for Guests & Novice Certificates (feb-may 2025)
             </h3>
             <p>
-              Reconocimiento oficial como usuario avanzado de ClickUp, aplicando
-              buenas prácticas en gestión de proyectos y coordinación.
+              Certificaciones que demuestran competencias en coordinación de
+              proyectos y metodologías ágiles dentro de ClickUp.
             </p>
           </div>
 
           <div>
             <h3>
               <img src={clickupBadge} alt="ClickUp Badge" />
-              ClickUp for Guests & Novice Certificates (feb-may 2025)
+              ClickUp Expert Certificate (abr 2025)
             </h3>
             <p>
-              Certificaciones que demuestran competencias en coordinación de
-              proyectos y metodologías ágiles dentro de ClickUp.
+              Reconocimiento oficial como usuario avanzado de ClickUp, aplicando
+              buenas prácticas en gestión de proyectos y coordinación.
             </p>
           </div>
 
@@ -135,6 +114,30 @@ const PremiosLogros = () => {
             <p>
               Curso intensivo que acredita mi capacidad para crear sistemas de
               productividad y gestión eficiente de proyectos utilizando Notion.
+            </p>
+          </div>
+
+          <div>
+            <h3>
+              <img src={gold} alt="medal" />
+              Mejor nota de la promoción del Máster (2023)
+            </h3>
+            <p>
+              Fui elegido portavoz de los estudiantes y obtuve la mejor
+              calificación del máster. Este logro refleja mi compromiso y
+              dedicación durante el programa.
+            </p>
+          </div>
+
+          <div>
+            <h3>
+              <img src={gold} alt="medal" />
+              Ganador del Hackathon de La Caixa (nov 2023)
+            </h3>
+            <p>
+              Participé en un hackathon competitivo organizado por La Caixa,
+              donde nuestro equipo presentó una solución innovadora y logramos
+              el primer puesto.
             </p>
           </div>
         </div>

@@ -63,7 +63,7 @@
 
 import React, { useState } from "react";
 import "./about-me.css";
-import github from "../../images/github_original_wordmark_logo_icon_146506.png";
+import github from "../../images/git_original_wordmark_logo_icon_146510.png";
 import linkedin from "../../images/1495493940-linkedinsocialmedialogo_84449.png";
 
 const AboutMe = () => {

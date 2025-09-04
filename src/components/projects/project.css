@@ -41,6 +41,7 @@
   width: 4rem;
   height: 4rem;
   margin-bottom: 1rem;
+  border-radius: 12px;
 }
 
 .project-card h2 {
@@ -99,4 +100,14 @@
     width: 3rem;
     height: 3rem;
   }
+}
+
+.projects-cv-button {
+  text-align: center;
+  margin: 1.5rem 0 2rem;
+}
+
+.btn.small {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
 }
