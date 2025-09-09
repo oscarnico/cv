@@ -93,11 +93,12 @@ const Experience = () => {
             </h3>
             <h6 className="peanut-h6">Enero 2025 - Actualidad</h6>
             <p className="peanut-p">
-              Developer & Coordinador en e-Commerce y Soporte en una agencia
+              Developer y Coordinador en e-Commerce y Soporte en una agencia
               especializada en Shopify. Desarrollo funcionalidades, optimizo
-              plataformas de comercio electrónico y coordino equipos para
-              garantizar soporte eficaz y soluciones innovadoras. Siempre
-              enfocado en la mejora continua y la experiencia del usuario.
+              plataformas de comercio electrónico y gestiono proyectos
+              utilizando ClickUp, coordinando equipos para garantizar soporte
+              eficaz y soluciones innovadoras. Todo ello siempre enfocado en la
+              mejora continua y en ofrecer la mejor experiencia al usuario.
             </p>
           </div>
 

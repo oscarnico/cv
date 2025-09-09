@@ -106,9 +106,12 @@ const AboutMe = () => {
         <div className="about-content">
           <p>
             Soy un desarrollador full stack especializado en el stack MERN y
-            Liquid para Shopify, actualmente trabajando en una agencia
-            especializada en e-commerce, combinando desarrollo frontend y
-            backend para crear experiencias eficientes y escalables.
+            Liquid para Shopify, trabajando en una agencia de e-commerce, donde
+            desarrollo y mantengo tiendas online usando Liquid, HTML, CSS y
+            JavaScript, aplicando buenas prácticas y control de versiones con
+            Git. Además, combino desarrollo frontend con la coordinación de
+            soporte y gestión de proyectos para garantizar experiencias
+            eficientes y escalables.
           </p>
 
           <p>📌 Lo que me define:</p>
@@ -118,14 +121,6 @@ const AboutMe = () => {
             <li>Enfoque en optimización y rendimiento</li>
             <li>Pasión por el desarrollo… y por escalar montañas 😉</li>
           </ul>
-
-          <p>🚀 Experiencia actual:</p>
-          <p>
-            Desarrollo y mantenimiento de e-commerce en Shopify usando Liquid,
-            HTML, CSS, JavaScript y Sass, aplicando buenas prácticas y control
-            de versiones con Git. También coordino soporte técnico para
-            garantizar la mejor experiencia a los clientes.
-          </p>
 
           <p>🏆 Logros:</p>
           <ul>
