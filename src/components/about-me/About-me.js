@@ -105,20 +105,29 @@ const AboutMe = () => {
       {isVisible && (
         <div className="about-content">
           <p>
-            Soy un desarrollador full stack especializado en el stack MERN y
-            Liquid para Shopify, trabajando en una agencia de e-commerce, donde
-            desarrollo y mantengo tiendas online usando Liquid, HTML, CSS y
-            JavaScript, aplicando buenas prácticas y control de versiones con
-            Git. Además, combino desarrollo frontend con la coordinación de
-            soporte y gestión de proyectos para garantizar experiencias
-            eficientes y escalables.
+            Soy un profesional con formación en desarrollo Full Stack,
+            especializado en el stack MERN y en Liquid para Shopify. Actualmente
+            trabajo en una agencia de e-commerce, donde no solo desarrollo y
+            mantengo tiendas online aplicando Liquid, HTML, CSS y JavaScript,
+            sino que también participo en la coordinación de soporte y la
+            gestión de proyectos, asegurando entregas eficientes y experiencias
+            escalables.
           </p>
 
           <p>📌 Lo que me define:</p>
           <ul>
-            <li>Alta productividad y entrega consistente de proyectos</li>
-            <li>Aprendizaje rápido y adaptación a nuevas tecnologías</li>
-            <li>Enfoque en optimización y rendimiento</li>
+            <li>
+              Capacidad para combinar el desarrollo técnico con la gestión de
+              equipos y proyectos
+            </li>
+            <li>Alta productividad y entrega consistente de resultados</li>
+            <li>
+              Aprendizaje rápido y adaptación a nuevas metodologías y
+              tecnologías
+            </li>
+            <li>
+              Habilidades de comunicación y organización para entornos dinámicos
+            </li>
             <li>Pasión por el desarrollo… y por escalar montañas 😉</li>
           </ul>
 
@@ -129,6 +138,7 @@ const AboutMe = () => {
               School
             </li>
             <li>Mejor nota de mi promoción</li>
+            <li>Certificación Shopify Development Fundamentals (2025)</li>
           </ul>
         </div>
       )}
