@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.9b8b2160.css",
-    "main.js": "/cv/static/js/main.6e1f56b7.js",
+    "main.js": "/cv/static/js/main.d3328fc5.js",
     "static/js/453.37df9cc7.chunk.js": "/cv/static/js/453.37df9cc7.chunk.js",
     "static/media/Mail_icon-icons.com_76887.png": "/cv/static/media/Mail_icon-icons.com_76887.503f40e8faef547530ef.png",
     "static/media/book_books_school_read_icon_210070.png": "/cv/static/media/book_books_school_read_icon_210070.abf1e2aabb20600ebe38.png",
@@ -24,11 +24,11 @@
     "static/media/Play-store.svg": "/cv/static/media/Play-store.6fd2514a262cb1049b08f649ad08e1f5.svg",
     "index.html": "/cv/index.html",
     "main.9b8b2160.css.map": "/cv/static/css/main.9b8b2160.css.map",
-    "main.6e1f56b7.js.map": "/cv/static/js/main.6e1f56b7.js.map",
+    "main.d3328fc5.js.map": "/cv/static/js/main.d3328fc5.js.map",
     "453.37df9cc7.chunk.js.map": "/cv/static/js/453.37df9cc7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b8b2160.css",
-    "static/js/main.6e1f56b7.js"
+    "static/js/main.d3328fc5.js"
   ]
 }
