@@ -51,6 +51,14 @@ const Projects = () => {
             personalización de experiencias de usuario. Entre los proyectos en
             los que he participado destacan{" "}
             <a
+              href="https://biotion.es/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Biotion
+            </a>
+            ,{" "}
+            <a
               href="https://ivbwellness.com/"
               target="_blank"
               rel="noopener noreferrer"

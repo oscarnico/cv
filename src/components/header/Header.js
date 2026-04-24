@@ -31,10 +31,13 @@ const Header = () => {
     <header className="header-container">
       <div className="header-left">
         <h1 className="name">Óscar Nicolás</h1>
-        <h2 className="role">Full Stack Developer · Shopify Expert</h2>
+        <h2 className="role">
+          Shopify Developer | Full Stack (React &amp; Node.js) | Salesforce
+          Admin (Trailhead)
+        </h2>
         <p className="tagline">
-          Coordinador de soporte & creador de experiencias digitales enfocadas
-          en e-commerce
+          {/* Coordinador de soporte & creador de experiencias digitales enfocadas
+          en e-commerce */}
         </p>
         <Link to="/projects" className="btn">
           Ver Proyectos
