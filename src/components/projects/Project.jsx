@@ -1,19 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./project.css";
+import playStoreIcon from "../../images/google_play_logo_icon_134458.png";
 import smartFoodLogo from "../../images/smart-food.png";
 
 const Projects = () => {
   return (
     <section className="projects-container">
-      <h1>Proyectos Destacados</h1>
-      <p className="projects-intro">
-        Proyectos destacados de desarrollo y colaboración en entornos reales.
-      </p>
+      <header className="projects-header">
+        <h1 className="projects-title">Proyectos</h1>
+        <p className="projects-subtitle">
+          Desarrollo y colaboraciones en entornos reales de eCommerce y backend.
+        </p>
+      </header>
 
       {/* Botón CV global */}
-      <div className="projects-cv-button">
-        <Link to="/Cv" className="btn secondary">
+      <div className="projects-actions">
+        <Link to="/cv" className="btn btn-secondary">
           Ver CV
         </Link>
       </div>
@@ -36,9 +39,10 @@ const Projects = () => {
               href="https://play.google.com/store/apps/details?id=es.smartfoodinsight.smartfoodinsight&hl=es"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn small"
+              className="btn btn-primary btn-sm btn-icon"
             >
-              Ver en Play Store
+              <img src={playStoreIcon} alt="Google Play" />
+              Disponible en Play Store
             </a>
           </div>
         </div>

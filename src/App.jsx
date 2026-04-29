@@ -6,15 +6,14 @@ import Projects from "./components/projects/Project";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div>
         <Routes>
           <Route path="/" element={<Intro />} />
-          <Route path="/Cv" element={<Cv />} />
+          <Route path="/cv" element={<Cv />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>
   );
 }
-
 export default App;

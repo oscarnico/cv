@@ -5,20 +5,22 @@ const CollapsibleSection = ({ title, children }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
-    setIsVisible(!isVisible);
+    setIsVisible((prev) => !prev);
   };
 
   return (
     <div className="collapsible-section">
-      <h2 onClick={toggleVisibility}>
-        {title}{" "}
-        {isVisible ? (
-          <span className="arrow">&uarr;</span>
-        ) : (
-          <span className="arrow">&darr;</span>
-        )}
+      <h2
+        className={`collapsible-title ${isVisible ? "open" : ""}`}
+        onClick={toggleVisibility}
+      >
+        {title}
+        <span className="arrow" />
       </h2>
-      {isVisible && <div className="section-content">{children}</div>}
+
+      <div className={`section-content ${isVisible ? "open" : ""}`}>
+        {children}
+      </div>
     </div>
   );
 };

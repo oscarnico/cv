@@ -1,82 +1,168 @@
-/* .xperience-text {
-    display: flex;
-    margin: 0rem 3rem 1rem 1rem;
-}
-.human {
-    margin-right: 1rem;
-    min-width: 50%;
-    text-align: center;
-}
-.iron {
-    min-width: 50%;
-    text-align: center;
-}
-.a-human-h4 {
-    color: white;
-}
-.human-a {
-    color: #FFD700;
-}
-.human-h4, .human-h6, .human-p {
-    color: white;
-}
-.iron-h4, .iron-h6, .iron-p {
-    color: #FFD700; 
-}
-.our-app {
-    color: #FFD700; 
-}
-.angel {
-    color: white;
+.experience-section {
+  width: 100%;
 }
 
-@media (max-width: 600px) {
-    .xperience-text {
-        flex-direction: column;
-        margin: 0rem 1rem 1rem 1rem;
-    }
-  
-    .human {
-        order: 1;
-        min-width: none;
-    }
-  
-    .iron {
-        order: 2;
-        min-width: none;
-    }
-  }
+/* =========================
+   TIMELINE WRAPPER
+========================= */
 
-  .download-button {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
-    margin: 0 auto;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    width: 16rem;
-  }
-  
-  .download-button:hover {
-    background-color: #333;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-    transform: translateY(-2px);
-  } */
+.timeline {
+  position: relative;
+  margin-top: 1rem;
+  padding-left: 2rem;
 
-  .peanut, .peanut-h4, .peanut-h6, .peanut-p {
-  color: var(--text-color); /* blanco/gris claro */
-  text-align: center;
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.peanut-h4 a {
-  color: var(--accent); /* verde turquesa */
+/* LINEA VERTICAL */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* =========================
+   ITEM
+========================= */
+
+.timeline-item {
+  position: relative;
+  display: flex;
+}
+
+/* PUNTO */
+.timeline-dot {
+  position: absolute;
+  left: 2px;
+  top: 18px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px rgba(0, 216, 164, 0.12);
+}
+
+/* =========================
+   CARD
+========================= */
+
+.timeline-item .card {
+  margin-left: 2rem;
+  width: calc(100% - 2rem);
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  margin-bottom: 0.4rem;
+}
+
+.timeline-header h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.2px;
+}
+
+.timeline-header span {
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+/* LINKS */
+.timeline-header a {
+  color: inherit;
   text-decoration: none;
 }
 
-.peanut-h4 a:hover {
-  color: var(--secondary); /* azul tech */
+.timeline-header a:hover {
+  color: var(--secondary);
+}
+
+/* =========================
+   ROLE
+========================= */
+
+.timeline-content h4 {
+  font-size: 0.95rem;
+  color: var(--secondary);
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+/* =========================
+   LIST
+========================= */
+
+.timeline-content ul {
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.timeline-content li {
+  font-size: 0.93rem;
+  line-height: 1.5;
+  color: var(--text-color);
+  opacity: 0.9;
+}
+
+/* =========================
+   PLAY STORE BUTTON
+========================= */
+
+.playstore-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.45rem 0.85rem;
+
+  border-radius: 8px;
+  border: 1px solid var(--accent);
+
+  color: var(--accent);
+  text-decoration: none;
+
+  font-size: 0.85rem;
+
+  transition: all 0.25s ease;
+}
+
+.playstore-btn:hover {
+  background: var(--accent);
+  color: var(--bg-color);
+  transform: translateY(-2px);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 1.4rem;
+  }
+
+  .timeline-content {
+    padding: 1.2rem;
+  }
+
+  .timeline-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

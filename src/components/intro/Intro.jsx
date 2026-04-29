@@ -9,15 +9,18 @@ const Intro = () => {
         <h1 className="name">Óscar Nicolás</h1>
         <h2 className="role">
           Shopify Developer | Full Stack (React &amp; Node.js) | Salesforce
-          Admin (Trailhead)
+          (Trailhead)
         </h2>
-        <p className="tagline"></p>
+        <p className="tagline">
+          Desarrollo experiencias eCommerce escalables con Shopify y tecnologías
+          web modernas.
+        </p>
 
         <div className="cta-buttons">
-          <Link to="/projects" className="btn">
+          <Link to="/projects" className="btn btn-primary">
             Ver Proyectos
           </Link>
-          <Link to="/Cv" className="btn secondary">
+          <Link to="/cv" className="btn btn-secondary">
             Descargar CV
           </Link>
         </div>
