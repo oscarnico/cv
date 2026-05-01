@@ -20,22 +20,33 @@ Portfolio personal desarrollado con React + Vite.
 
 ```bash
 npm install
-npm run dev
-
+npm run dev 
+```
 Abrir en: http://localhost:5173/
 
-📦 Build
+---
+
+## 📦 Build
+
+```bash
 npm run build
+```
 
 Genera la carpeta /dist
 
-🌐 Deploy (GitHub Pages)
+## 🌐 Deploy (GitHub Pages)
+```bash
 npm run deploy
-🔁 Workflow
+```
+## 🔁 Workflow
 Subir cambios al repo
+```bash
 git add .
 git commit -m "mensaje"
 git push origin main
-Actualizar la web
-npm run deploy
+```
 
+Actualizar la web:
+```bash
+npm run deploy
+```
