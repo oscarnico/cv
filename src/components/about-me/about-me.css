@@ -72,7 +72,7 @@
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* STACK (antes grid → ahora vertical clean) */
+/* STACK (vertical clean) */
 .about-stack {
   display: flex;
   flex-direction: column;

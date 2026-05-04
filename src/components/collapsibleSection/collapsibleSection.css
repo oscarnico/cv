@@ -22,7 +22,6 @@
     transform 0.3s ease;
 }
 
-/* hover suave */
 .collapsible-section h2:hover {
   color: var(--secondary);
   transform: scale(1.03);
@@ -60,12 +59,12 @@
 }
 
 .section-content.open {
-  max-height: 2000px;
+  max-height: 2350px;
   opacity: 1;
   transform: translateY(0);
 }
 
-/* ===== RESPONSIVE (IMPORTANTE) ===== */
+/* ===== RESPONSIVE ===== */
 @media (max-width: 600px) {
   .collapsible-section h2 {
     font-size: 1.5rem;

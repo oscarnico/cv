@@ -1,6 +1,4 @@
-/* =========================
-   BASE LAYOUT (APP STYLE)
-========================= */
+/* BASE LAYOUT (APP STYLE) */
 
 .cv-container {
   display: flex;
@@ -17,9 +15,7 @@
   padding: 4rem 1.5rem;
 }
 
-/* =========================
-   SECCIONES (SYSTEM BASE)
-========================= */
+/* SECCIONES (SYSTEM BASE) */
 
 .cv-section {
   max-width: 1000px;
@@ -59,9 +55,7 @@
   transform: translateY(-2px);
 }
 
-/* =========================
-   TIPOGRAFÍA GLOBAL
-========================= */
+/*TIPOGRAFÍA GLOBAL*/
 
 .cv-section h2,
 .cv-section h3 {
@@ -69,9 +63,7 @@
   letter-spacing: -0.3px;
 }
 
-/* =========================
-   ANIMACIÓN
-========================= */
+/* ANIMACIÓN */
 
 @keyframes fadeUp {
   to {
@@ -80,9 +72,7 @@
   }
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* RESPONSIVE */
 
 @media (max-width: 768px) {
   .cv-content {

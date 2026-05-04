@@ -2,6 +2,7 @@
   "name": "iron-man-cv",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://oscarnico.github.io/cv",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

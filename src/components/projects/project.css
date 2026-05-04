@@ -47,7 +47,7 @@
   transition: all 0.25s ease;
 }
 
-/* HOVER PRO */
+/* HOVER */
 .project-card:hover {
   transform: translateY(-6px);
   border-color: var(--accent);

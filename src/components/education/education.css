@@ -44,7 +44,7 @@
   box-shadow: 0 0 0 4px rgba(0, 216, 164, 0.12);
 }
 
-/* 👉 CLAVE (igual que Experience) */
+/* (igual que Experience) */
 .timeline-item .card {
   margin-left: 2rem;
   width: calc(100% - 2rem);
