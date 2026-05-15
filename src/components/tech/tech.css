@@ -174,7 +174,7 @@
   overflow: hidden;
 }
 
-/* LIGHT SWEEP EFFECT (PRO TOUCH) */
+/* LIGHT SWEEP EFFECT */
 .tech-pill::before {
   content: "";
   position: absolute;

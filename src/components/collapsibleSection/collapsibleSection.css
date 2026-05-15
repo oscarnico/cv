@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-/* ===== TITLE ===== */
+/* TITLE */
 .collapsible-section h2 {
   font-size: 2rem;
   font-weight: 600;
@@ -27,7 +27,7 @@
   transform: scale(1.03);
 }
 
-/* ===== FLECHA APPLE STYLE ===== */
+/* FLECHA APPLE STYLE */
 .arrow {
   width: 10px;
   height: 10px;
@@ -44,7 +44,7 @@
   transform: rotate(225deg);
 }
 
-/* ===== CONTENT ANIMATION ===== */
+/* CONTENT ANIMATION */
 .section-content {
   max-height: 0;
   opacity: 0;
@@ -64,7 +64,7 @@
   transform: translateY(0);
 }
 
-/* ===== RESPONSIVE ===== */
+/* RESPONSIVE */
 @media (max-width: 600px) {
   .collapsible-section h2 {
     font-size: 1.5rem;
