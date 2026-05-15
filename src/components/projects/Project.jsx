@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./project.css";
 import playStoreIcon from "../../images/google_play_logo_icon_134458.png";
 import smartFoodLogo from "../../images/smart-food.png";
+import premiereLogo from "../../images/logo.png";
 
 const Projects = () => {
   return (
@@ -44,6 +45,30 @@ const Projects = () => {
               <img src={playStoreIcon} alt="Google Play" />
               Disponible en Play Store
             </a>
+          </div>
+        </div>
+
+        <div className="project-card">
+          <img
+            src={premiereLogo}
+            alt="Premiere Estilistas"
+            className="project-logo"
+          />
+
+          <h2>Premiere Estilistas</h2>
+
+          <p>
+            Diseño y desarrollo completo de una web profesional para una
+            peluquería utilizando React + Vite. Arquitectura frontend moderna,
+            enfoque en UX/UI, optimización de rendimiento y diseño responsive.
+            Proyecto actualmente en desarrollo con despliegue y dominio propio
+            en preparación.
+          </p>
+
+          <div className="project-buttons">
+            <span className="btn btn-primary btn-sm btn-icon btn-disabled">
+              🚧 Visitar web (próximamente)
+            </span>
           </div>
         </div>
 

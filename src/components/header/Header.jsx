@@ -11,7 +11,8 @@ const Header = () => {
           <h1 className="hero-title">Óscar Nicolás</h1>
 
           <h2 className="hero-subtitle">
-            Shopify Developer | Full Stack (React & Node.js)
+            Full Stack Developer (React & Node.js) | eCommerce & CRM (Shopify /
+            Salesforce)
           </h2>
 
           <p className="hero-description">

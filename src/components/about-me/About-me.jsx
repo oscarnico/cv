@@ -10,8 +10,8 @@ const AboutMe = () => {
         <div>
           <h2 className="about-title">Sobre mí</h2>
           <p className="about-subtitle">
-            Desarrollo Full Stack · Shopify · eCommerce · Salesforce en
-            formación
+            Desarrollo Full Stack · Shopify · eCommerce · Salesforce
+            Administrator (Trailhead)
           </p>
         </div>
 
@@ -64,7 +64,7 @@ const AboutMe = () => {
             <li>Frontend + mentalidad de producto</li>
             <li>Gestión de proyectos con ClickUp</li>
             <li>Aprendizaje rápido y adaptación constante</li>
-            <li>Formación en Salesforce (Trailhead)</li>
+            <li>Salesforce Administrator (Trailhead)</li>
           </ul>
         </div>
       </div>

@@ -12,13 +12,12 @@ const Education = () => {
       school: "Trailhead by Salesforce",
       schoolLink: "https://trailhead.salesforce.com/",
       description: [
-        "Formación práctica en Salesforce CRM a través de Trailhead.",
+        "Experiencia práctica en Salesforce CRM a través de Trailhead",
         "Gestión de usuarios y permisos",
         "Modelado de datos y objetos",
         "Automatización de procesos (Flows)",
         "Informes y dashboards",
         "+18 badges completadas",
-        "En progreso hacia nivel avanzado",
       ],
     },
     {
