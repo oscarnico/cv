@@ -21,6 +21,32 @@ const Education = () => {
       ],
     },
     {
+      title: "Claude Code para Product Managers",
+      year: "2026",
+      school: "Product HUB",
+      schoolLink: "https://claude.ai/",
+      description: [
+        "Curso práctico de Product Management con IA",
+        "Discovery y prototipado de landings",
+        "Análisis de datos y generación de insights",
+        "Creación de dashboards para stakeholders",
+        "Uso de MCP e integraciones con herramientas como ClickUp",
+        "Trabajo con modelos Opus, Sonnet y Haiku",
+      ],
+    },
+    {
+      title: "Curso de Iniciación al Desarrollo con IA",
+      year: "2026",
+      school: "BIG school",
+      schoolLink: "https://n8n.io/",
+      description: [
+        "Especialización en desarrollo estratégico con IA",
+        "Uso de NotebookLM, n8n y Firebase",
+        "Automatización y arquitectura de flujos",
+        "Enfoque en transición de programador a arquitecto",
+      ],
+    },
+    {
       title: "Máster Full Stack Developer",
       year: "2023",
       school: "Nuclio School, Madrid",

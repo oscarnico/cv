@@ -15,7 +15,6 @@
   border: 1px solid var(--accent);
 }
 
-/* HEADER */
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -36,7 +35,6 @@
   opacity: 0.7;
 }
 
-/* BODY */
 .card-body h4 {
   font-size: 1rem;
   color: var(--secondary);
