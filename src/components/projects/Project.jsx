@@ -61,14 +61,19 @@ const Projects = () => {
             Diseño y desarrollo completo de una web profesional para una
             peluquería utilizando React + Vite. Arquitectura frontend moderna,
             enfoque en UX/UI, optimización de rendimiento y diseño responsive.
-            Proyecto actualmente en desarrollo con despliegue y dominio propio
-            en preparación.
+            Proyecto desplegado en producción con dominio personalizado, en fase
+            de refinamiento y mejoras continuas.
           </p>
 
           <div className="project-buttons">
-            <span className="btn btn-primary btn-sm btn-icon btn-disabled">
-              🚧 Visitar web (próximamente)
-            </span>
+            <a
+              href="http://premiére-estilistas.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary btn-sm btn-icon"
+            >
+              🌐 Visitar web
+            </a>
           </div>
         </div>
 
