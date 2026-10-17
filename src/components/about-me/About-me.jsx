@@ -10,8 +10,8 @@ const AboutMe = () => {
         <div>
           <h2 className="about-title">Sobre mí</h2>
           <p className="about-subtitle">
-            Desarrollo Full Stack · Shopify · eCommerce · Salesforce
-            Administrator (Trailhead)
+            Consultor Comercial en Prosegur | Full Stack & Salesforce
+            Trailblazer
           </p>
         </div>
 
@@ -42,28 +42,46 @@ const AboutMe = () => {
         <div className="about-item">
           <h3>👨‍💻 Quién soy</h3>
           <p>
-            Soy desarrollador Full Stack especializado en JavaScript (React y
-            Node.js) y Shopify (Liquid). Actualmente trabajo en una agencia de
-            eCommerce desarrollando soluciones reales en producción.
+            Soy Consultor Comercial de Seguridad Integral en Prosegur, con un
+            background técnico como Desarrollador Full Stack y Project Manager.
+            Combino la visión comercial y estratégica con el desarrollo de
+            soluciones digitales, lo que me permite entender las necesidades del
+            cliente y aportar soluciones que generan valor.
           </p>
         </div>
 
         <div className="about-item">
           <h3>⚙️ Qué hago</h3>
           <p>
-            Desarrollo y optimizo tiendas Shopify, mejorando rendimiento, diseño
-            responsive y experiencia de usuario. También participo en la gestión
-            de proyectos y coordinación de tareas en entornos ágiles.
+            En el ámbito comercial, analizo necesidades, propongo soluciones y
+            trabajo en la gestión y fidelización de clientes mediante
+            Salesforce.
+          </p>
+          <p>
+            En mi faceta técnica, colaboro con ShopiMaster como Shopify
+            Developer y Project Manager, desarrollando y optimizando tiendas
+            e-commerce con Shopify, Liquid, HTML, CSS y JavaScript. También
+            participo en la planificación, estimación de tareas y coordinación
+            de equipos y proyectos.
           </p>
         </div>
 
         <div className="about-item">
           <h3>🚀 Lo que me define</h3>
           <ul>
-            <li>Experiencia real en agencia eCommerce (Shopify)</li>
-            <li>Frontend + mentalidad de producto</li>
+            <li>Visión de negocio combinada con conocimientos técnicos.</li>
+            <li>Desarrollo Full Stack con JavaScript, React y Node.js.</li>
+            <li>
+              Experiencia en Shopify y desarrollo de soluciones e-commerce.
+            </li>
+            <li>
+              Gestión de proyectos, planificación y coordinación de equipos.
+            </li>
             <li>Gestión de proyectos con ClickUp</li>
-            <li>Aprendizaje rápido y adaptación constante</li>
+            <li>
+              Aprendizaje rápido, productividad y adaptación a nuevas
+              tecnologías
+            </li>
             <li>Salesforce Administrator (Trailhead)</li>
           </ul>
         </div>

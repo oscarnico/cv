@@ -8,12 +8,10 @@ const Intro = () => {
       <div className="intro-content">
         <h1 className="name">Óscar Nicolás</h1>
         <h2 className="role">
-          Shopify Developer | Full Stack (React &amp; Node.js) | Salesforce
-          (Trailhead)
+          Consultor Comercial en Prosegur | Full Stack & Salesforce Trailblazer
         </h2>
         <p className="tagline">
-          Desarrollo experiencias eCommerce escalables con Shopify y tecnologías
-          web modernas.
+          Conectando negocio, tecnología y soluciones digitales
         </p>
 
         <div className="cta-buttons">

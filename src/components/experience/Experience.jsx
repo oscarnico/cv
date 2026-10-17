@@ -8,6 +8,47 @@ const Experience = () => {
     <section className="experience-section">
       <CollapsibleSection title="Experiencia profesional">
         <div className="timeline">
+          {/* MOVISTAR PROSEGUR ALARMAS */}
+          <div className="timeline-item">
+            <div className="timeline-dot" />
+
+            <Card>
+              <CardHeader>
+                <h3>
+                  <a
+                    href="https://www.linkedin.com/company/75168284/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Movistar Prosegur Alarmas
+                  </a>
+                </h3>
+                <span>Julio 2026 - Actualidad</span>
+              </CardHeader>
+
+              <CardBody>
+                <h4>Consultor Comercial de Seguridad Integral</h4>
+                <ul>
+                  <li>
+                    Consultoría comercial especializada en soluciones de
+                    seguridad integral para empresas y particulares.
+                  </li>
+                  <li>
+                    Análisis de necesidades del cliente y elaboración de
+                    propuestas personalizadas adaptadas a cada situación.
+                  </li>
+                  <li>
+                    Gestión comercial y cierre de acuerdos, con enfoque en la
+                    fidelización y la generación de valor a largo plazo.
+                  </li>
+                  <li>
+                    Gestión y seguimiento de oportunidades comerciales mediante
+                    Salesforce.
+                  </li>
+                </ul>
+              </CardBody>
+            </Card>
+          </div>
           {/* SHOPIMASTERS */}
           <div className="timeline-item">
             <div className="timeline-dot" />

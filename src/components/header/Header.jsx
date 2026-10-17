@@ -11,13 +11,12 @@ const Header = () => {
           <h1 className="hero-title">Óscar Nicolás</h1>
 
           <h2 className="hero-subtitle">
-            Full Stack Developer (React & Node.js) | eCommerce & CRM (Shopify /
-            Salesforce)
+            Consultor Comercial en Prosegur | Full Stack & Salesforce
+            Trailblazer
           </h2>
 
           <p className="hero-description">
-            Desarrollo experiencias digitales escalables enfocadas en eCommerce
-            y rendimiento.
+            Conectando negocio, tecnología y soluciones digitales
           </p>
 
           <div className="hero-actions">
